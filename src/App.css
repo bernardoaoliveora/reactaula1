@@ -1,10 +1,15 @@
+:root {
+    --cor1: #8100cc;
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 
-
+}
+body{
+    overflow-x: hidden;
 }
 
 .paidopai {
@@ -101,7 +106,7 @@ Card(){
     text-align: center;
     font-size: 20px;
     position: absolute;
-    top: 5.6em;
+    top: 5em;
     left: 0;
     right: 0;
     color: rgb(255, 255, 255);
@@ -109,10 +114,16 @@ Card(){
 }
 
 .name {
-    font-size: 14px;
-    font-weight: 100;
+    font-size: 16px;
+    /* font-weight: 100; */
     position: relative;
-    top: 1em;
+
+
+}
+.descricao{
+    position: relative;
+    font-size: 12px;
+    font-weight: 100;
 
 }
 
